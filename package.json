@@ -4,16 +4,19 @@
   "description": "A sample Node.js app using Express 4",
   "engines": {
     "node": "6.0.0",
-    "npm" : "3.8.6"
+    "npm": "3.8.6"
   },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "address": "^1.0.0",
     "detect-language": "^1.0.1",
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "get-browser-language": "^1.0.0",
+    "os": "^0.1.1"
   },
   "repository": {
     "type": "git",
