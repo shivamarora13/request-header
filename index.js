@@ -15,7 +15,7 @@ app.get('/', function(request, response) {
   	ipaddress : ip,
   	software : osname
   }
-
+  response.setHeader("content-type","application/json");
   response.send(JSON.stringify(obj));
 });
 
